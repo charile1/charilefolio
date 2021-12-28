@@ -1,0 +1,153 @@
+@charset "utf-8";
+@import "./background.css";
+
+/* 섹션1 */
+.intro {
+  background-color: transparent;
+  /* border: 2px solid red; */
+  width: 100vw;
+  /* height: 600px; */
+  padding-top: 200px;
+  padding: 0 1rem 0;
+  margin: 1rem auto;
+  box-sizing: border-box;
+}
+
+.intro .menubar {
+  padding: 1rem;
+  margin-right: 1rem;
+  font-size: 1.2em;
+  display: flex;
+  gap: 5rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.intro  .menu:hover{
+  border-bottom: 1px solid white;
+}
+
+.intro .introTit {
+  /* border: 1px solid red; */
+  margin-top: 9rem;
+
+}
+
+.intro  article  {
+  font-size: 9rem;
+  line-height: 14.6rem;
+  font-weight: 900;
+  color: white;
+}
+
+.intro  .menubar a {
+  text-decoration: none;
+  color: white;
+}
+
+/* 섹션 2 */
+.aboutMe {
+  margin: 0 auto;
+  border: 5px solid rgb(238, 238, 238);
+  border-radius: 20px;
+  background-color: rgb(238, 238, 238);
+  width: 95vw;
+}
+
+.aboutMe h1 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  text-align: center;
+  margin-top: 1rem;
+  /* border:1px solid; */
+}
+
+.aboutMe .aboutMeOne {
+  padding: 4rem;
+  /* border: 5px solid red; */
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+/* 미모티콘 */
+.aboutMe .circle {
+  width: 13rem;
+  height: 13rem;
+  background-color: #87CEEB;
+  border-radius: 50%;
+  position: relative;
+}
+
+.aboutMe .circle .logo-developer {
+    position: absolute;
+    top: 1.8rem;
+    transform: rotate(-15deg);
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    font-weight: 800;
+    border: 5px solid white;
+    background-color: rgb(57, 62, 70);
+    color: rgb(238, 238, 238);
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+}
+
+.aboutMe .circle .myface {
+  width: 200px;
+  position: absolute;
+  top: 4rem;
+  left: 3rem;
+}
+
+/* 내 메일,깃,블로그,이력서 */
+.aboutMe .info {
+  border-radius: 2.5rem;
+    padding: 2.5rem;
+    /* margin-left: 5rem; */
+    box-sizing: border-box;
+    height: 13rem;
+    display: flex;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border: 0.2rem solid #87CEEB;
+}
+
+.aboutMe .info_button {
+  width: 112%;
+  cursor: pointer;
+  padding: 0.8rem 2rem;
+  border-radius: 2rem;
+  border: 0.5rem solid rgb(238, 238, 238);
+  background-color: rgb(57, 62, 70);
+  color: #fff;
+  padding-top: 16px;
+  margin-bottom: 0.5rem;
+}
+
+.aboutMe .info_button a {
+  color: #fff;
+  background-color: rgb(57, 62, 70);
+  text-decoration: none;
+}
+
+/* 자기소개 */
+.aboutMe .introduce {
+  display: flex;
+  line-height: 230%;
+  font-size: 1.1rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+  border: 1px solid;
+  padding: 10px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+
