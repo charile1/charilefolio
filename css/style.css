@@ -344,15 +344,18 @@
 
 .project .container .skills .skillsSkill {
   border: 1px solid rgb(238, 238, 238);
-  background-color: rgb(238, 238, 238);
-  color: rgb(0, 0, 0);
-  padding: 0.2rem;
-  padding-bottom: 0.5rem;
+  /* background-color: rgb(238, 238, 238); */
+  background-color: #47597E;
+  color: rgb(238, 238, 238);
+  /* color: rgb(0, 0, 0); */
+  padding: 0.3rem;
   border-radius: 0.5rem;
 }
 
 .project .container .content img {
-  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
   border-radius: 1rem;
 }
 
