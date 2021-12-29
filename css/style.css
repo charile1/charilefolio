@@ -269,32 +269,32 @@
   color: rgb(238, 238, 238);
 }
 
-.project h3 {
+.project .tit-pro {
   color: #47597E;
-  position: absolute;
+  /* position: absolute; */
   box-sizing: border-box;
   font-size: 8rem;
   font-weight: 800;
-  left: 10rem;
+  /* left: 10rem; */
   width: 100%;
 }
 
-.project h3::after {
+.project .tit-pro::after {
   content: "Projects";
     position: absolute;
     color: transparent;
     -webkit-text-stroke: 0.1rem #fff;
-    top: -0.4rem;
+    /* top: -0.4rem; */
     left: -0.4rem;
 }
 
 .project .proOne {
-  padding-top: 5rem;
+  padding-top: 153px;
   width: 100%;
   color: rgb(238, 238, 238);;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   background-color: rgb(0, 0, 0);
-  padding: 8rem 8rem 20rem;
+  padding: 3rem 8rem 0rem;
   display: flex;
   flex-direction: column;
 }
@@ -308,7 +308,16 @@
   padding: 2rem 3rem;
 }
 
-.project .container .title {
+.project .container-right {
+  position: relative;
+  border: 3px solid #47597E;
+  border-radius: 2rem;
+  margin-top: 3rem;
+  margin-left: 30rem;
+  padding: 2rem 3rem;
+}
+
+.project  .title {
   display: inline-block;
   color: rgb(0, 0, 0);
   background-color: #47597E;
@@ -322,7 +331,7 @@
   padding: 1rem;
 }
 
-.project .container .date {
+.project .date {
   /* border: 1px solid white; */
   padding: 0px 1rem;
   position: absolute;
@@ -331,7 +340,7 @@
   right: 1rem;
 }
 
-.project .container .skills {
+.project .skills {
   /* border: 2px solid palegoldenrod; */
   display: flex;
   gap: 1rem;
@@ -342,7 +351,7 @@
 
 }
 
-.project .container .skills .skillsSkill {
+.project  .skills .skillsSkill {
   border: 1px solid rgb(238, 238, 238);
   /* background-color: rgb(238, 238, 238); */
   background-color: #47597E;
@@ -352,25 +361,24 @@
   border-radius: 0.5rem;
 }
 
-.project .container .content img {
-  margin: 0 auto;
+.project .content img {
   text-align: center;
-  width: 90%;
+  width: 600px;
   border-radius: 1rem;
 }
 
-.project .container .content .contentP {
+.project .content .contentP {
   /* border: 3px solid rebeccapurple; */
   margin-top: 2rem;
 }
 
 
-.project .container .contentP .Exp {
+.project .contentP .Exp {
   /* border: 1px solid red; */
   line-height: 2rem;
 }
 
-.project .container .svgBox {
+.project .svgBox {
   flex-direction: row;
   display: inline-flex;
   /* border: 3px solid red; */
@@ -382,6 +390,6 @@
   background: black;
 }
 
-.project .container .svgBox .svgOne {
+.project .svgBox .svgOne {
   fill: #47597E;
 }
