@@ -48,7 +48,7 @@
   left: -0.3rem;
 }
 
-.intro  article  {
+.intro .introName  {
   font-size: 9rem;
   line-height: 14.6rem;
   font-weight: 900;
@@ -309,6 +309,7 @@
 }
 
 .project .container {
+  width: 40rem;
   position: relative;
   border: 3px solid #47597E;
   border-radius: 2rem;
@@ -318,6 +319,7 @@
 }
 
 .project .container-right {
+  width: 40rem;
   position: relative;
   border: 3px solid #47597E;
   border-radius: 2rem;
@@ -326,7 +328,7 @@
   padding: 2rem 3rem;
 }
 
-.project  .title {
+.project .title {
   display: inline-block;
   color: rgb(0, 0, 0);
   background-color: #47597E;
@@ -357,7 +359,7 @@
 
 }
 
-.project  .skills .skillsSkill {
+.project .skills .skillsName {
   border: 1px solid rgb(238, 238, 238);
   background-color: #47597E;
   color: rgb(238, 238, 238);
