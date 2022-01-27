@@ -58,8 +58,8 @@
                 <div class="myface"><img width="200px" src="src/img/face3-unscreen.gif"></div>
                 <pre class="myinfo">
                     박경서
-                    1998-12-21
-                    010.8522.4967
+                    98/12/21
+                    010-8522-4967
                 </pre>
             </div>
             <div class="info">
@@ -81,24 +81,23 @@
        </div>
     </section>
     <!-- 스킬셋 나열 -->
-    <section class="strength" id="strength">
-        <h3 class="strengthTit">Strength</h3>
-        <ul class="strongFlex">
-            <li class="strongSkills">React</li>
-            <li class="strongSkills">Next.js</li>
-            <li class="strongSkills">TypeScript</li>
-            <li class="strongSkills">JavaScript</li>
-            <li class="strongSkills">styled</li>
-            <li class="strongSkills">emotion</li>
-            <li class="strongSkills">HTML5<li>
-            <li class="strongSkills">CSS3</li>
-            <li class="strongSkills">SCSS</li>
-            <li class="strongSkills">Node.js</li>
-            <li class="strongSkills">MySQL</li>
-            <li class="strongSkills">MongoDB</li>
-
+    <section class="cont-strength" id="strength">
+        <h3 class="tit-strength">Strength</h3>
+        <ul class="strongList">
+            <li class="item">React</li>
+            <li class="item">Next.js</li>
+            <li class="item">TypeScript</li>
+            <li class="item">JavaScript</li>
+            <li class="item">styled</li>
+            <li class="item">emotion</li>
+            <li class="item">HTML5<li>
+            <li class="item">CSS3</li>
+            <li class="item">SCSS</li>
+            <li class="item">Node.js</li>
+            <!-- <li class="strongSkills">MySQL</li> -->
+            <!-- <li class="strongSkills">MongoDB</li> -->
         </ul>
-        <article class="skills">
+        <article class="cont-skills">
             <div class="skillsOne">
                 <div class="skillBox">
                     <div class="name">React</div>
@@ -113,7 +112,7 @@
                     <div class="name">Node.js</div>
                     <div class="contents">
                         <p class="contentsP">node.js를 이용해 sns를 개발한 경험이 있습니다.</p>
-                        <p class="contentsP">postman API 플랫폼을 사용한 경험이 있습니다.</p>
+                        <p class="contentsP">express에서 http method로 CRUD 구현을 할 수 있습니다.</p>
                         <p class="contentsP">노드 더 배우고 추후 수정</p>
                     </div>
                 </div>
@@ -142,6 +141,7 @@
                         <p class="contentsP">jasmine으로 TDD를 연습해본 경험이 있습니다.</p>
                         <p class="contentsP">jQuery 사용을 할 수 있습니다.</p>
                         <p class="contentsP">json을 사용해 ajax로 로그인 구현을 해본 경험이 있습니다.</p>
+                        <!-- <p class="contentsP">json을 사용해 ajax로 로그인 구현을 해본 경험이 있습니다.</p> -->
                     </div>
                 </div>
            </div>
@@ -153,11 +153,43 @@
             Projects
         </div>
         <!-- 첫번째 플젝 -->
-            <article class="proOne">
-                <div class="container">
+        <article class="project">
+            <div class="container">
+                <div class="title">은이네 문방구 SNS 프로젝트</div>
+                <div class="date"> 2022.01.05 ~ 20 (4명)</div>
+                <ul class="skillsList">
+                    <li class="skillsName">HTML</li>
+                    <li class="skillsName">CSS</li>
+                    <li class="skillsName">JavaScript</li>
+                    <li class="skillsName">Node.js</li>
+                </ul>
+                <div class="content">
+                    <a href="https://frontro-project-one.vercel.app/splash_screen.html" target=”_blank”><img src="./src/img/project2.jpg" alt="" class="img"></a>
+                    <div class="contentP">
+                        <p class="exp"> 자신의 스토어에서 상품 등록, 일상 공유가 가능한 sns 프로젝트</p>
+                        <p class="exp"> node.js 로 로그인, 회원가입 CRUD 구현</p>
+                        <p class="exp">  </p>
+                    </div>
+                </div>
+                <div class="svgBox">
+                    <a href="https://github.com/charile1/Frontro-project" target=”_blank”>
+                        <img src="./src/svg/git.svg" alt="git으로 이동">
+                    </a>
+                    <a href="https://frontro-project-one.vercel.app/splash_screen.html" target=”_blank”>
+                        <img src="./src/svg/web.svg" alt="web으로 이동">
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=4ioUUzX3cDQ">
+                        <img src="./src/svg/youtube.svg" alt="youtube로 이동" target=”_blank”>
+                    </a>
+                </div>
+            </div>
+        </article>
+        <!-- 두번째 플젝 -->
+            <article class="project">
+                <div class="container-right">
                     <div class="title">futurama 소개 페이지</div>
                     <div class="date"> 2021.12.24 ~ 28 (1명)</div>
-                    <ul class="skills">
+                    <ul class="skillsList">
                         <li class="skillsName">React</li>
                         <li class="skillsName">TypeScript</li>
                         <li class="skillsName">Next.js</li>
@@ -166,9 +198,9 @@
                     <div class="content">
                         <a href="https://futurama-info.vercel.app/" target=”_blank”><img src="./src/img/futur1.png" alt="" class="img"></a>
                         <div class="contentP">
-                            <p class="Exp">Next 기반의 SSR 웹 페이지 구축 </p>
-                            <p class="Exp">6가지 ENDPOINT를 이용해 API 연동 </p>
-                            <p class="Exp">Styled Component, Emotion 으로 css in JS</p>
+                            <p class="exp">Next 기반의 SSR 웹 페이지 구축 </p>
+                            <p class="exp">6가지 ENDPOINT를 이용해 API 연동 </p>
+                            <p class="exp">Styled Component, Emotion 으로 css in JS</p>
                         </div>
                     </div>
                     <div class="svgBox">
@@ -184,60 +216,26 @@
                     </div>
                 </div>
             </article>
-            <!-- 두번째 플젝 -->
-            <article class="proOne">
-                <div class="container-right">
-                    <div class="title">은이네 문방구 SNS</div>
-                    <div class="date"> 2021.01.05 ~ 17 (4명)</div>
-                    <ul class="skills">
-                        <li class="skillsName">HTML</li>
-                        <li class="skillsName">CSS</li>
-                        <li class="skillsName">JavaScript</li>
-                        <!-- <li class="skillsName">Node.js</li> -->
-                    </ul>
-                    <div class="content">
-                        <a href="https://futurama-info.vercel.app/" target=”_blank”><img src="./src/img/project2.jpg" alt="" class="img"></a>
-                        <div class="contentP">
-                            <p class="Exp"> 은이네 문방구 서비스는 자신의 스토어에서 판매하고 있는 상품을 등록하여  홍보할 수 있는 SNS 프로젝트</p>
-                            <p class="Exp"> Node.js를 사용하여 SNS를 직접 구현</p>
-                            <p class="Exp"> 로그인,회원가입 CRUD 구현 </p>
-                        </div>
-                    </div>
-                    <div class="svgBox">
-                        <a href="https://github.com/charile1/futurama_info" target=”_blank”>
-                            <img src="./src/svg/git.svg" alt="git으로 이동">
-                        </a>
-                        <a href="https://futurama-info.vercel.app/" target=”_blank”>
-                            <img src="./src/svg/web.svg" alt="web으로 이동">
-                        </a>
-                        <a href="#none">
-                            <img src="./src/svg/youtube.svg" alt="youtube로 이동" target=”_blank”>
-                        </a>
-                    </div>
-                </div>
-            </article>
             <!-- 세번째  -->
-            <article class="proOne">
+            <article class="project">
                 <div class="container">
                     <div class="title">애플 스토어 클론</div>
-                    <div class="date"> 2021.12.24 ~ 28 (1명)</div>
-                    <ul class="skills">
+                    <div class="date"> 2022</div>
+                    <ul class="skillsList">
                         <li class="skillsName">React</li>
                         <li class="skillsName">TypeScript</li>
-                        <li class="skillsName">Next.js</li>
-                        <li class="skillsName">yarn</li>
                     </ul>
                     <div class="content">
                         <a href="https://futurama-info.vercel.app/" target=”_blank”><img src="./src/img/futur1.png" alt="" class="img"></a>
                         <div class="contentP">
-                            <p class="Exp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minima facilis delectus blanditiis nostrum consectetur vero culpa deleniti fugit rem consequatur, enim suscipit. Voluptatum, asperiores quo error tenetur minima unde. </p>
+                            <p class="exp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minima facilis delectus blanditiis nostrum consectetur vero culpa deleniti fugit rem consequatur, enim suscipit. Voluptatum, asperiores quo error tenetur minima unde. </p>
                         </div>
                     </div>
                     <div class="svgBox">
-                        <a href="https://github.com/charile1/futurama_info" target=”_blank”>
+                        <a href="https://github.com/charile1/react-clayful-app" target=”_blank”>
                             <img src="./src/svg/git.svg" alt="git으로 이동">
                         </a>
-                        <a href="https://futurama-info.vercel.app/" target=”_blank”>
+                        <a href="#none" target=”_blank”>
                             <img src="./src/svg/web.svg" alt="web으로 이동">
                         </a>
                         <a href="#none" target=”_blank”>
@@ -247,11 +245,11 @@
                 </div>
             </article>
             <!-- 네번째  -->
-            <article class="proOne">
+            <article class="project">
                 <div class="container-right">
                     <div class="title">반려동물 sns</div>
                     <div class="date"> 2021.12.24 ~ 28 (1명)</div>
-                    <ul class="skills">
+                    <ul class="skillsList">
                         <li class="skillsName">React</li>
                         <li class="skillsName">TypeScript</li>
                         <li class="skillsName">Next.js</li>
@@ -260,7 +258,7 @@
                     <div class="content">
                         <a href="https://futurama-info.vercel.app/" target=”_blank”><img src="./src/img/futur1.png" alt="" class="img"></a>
                         <div class="contentP">
-                            <p class="Exp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minima facilis delectus blanditiis nostrum consectetur vero culpa deleniti fugit rem consequatur, enim suscipit. Voluptatum, asperiores quo error tenetur minima unde. </p>
+                            <p class="exp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minima facilis delectus blanditiis nostrum consectetur vero culpa deleniti fugit rem consequatur, enim suscipit. Voluptatum, asperiores quo error tenetur minima unde. </p>
                         </div>
                     </div>
                     <div class="svgBox">
@@ -277,11 +275,11 @@
                 </div>
             </article>
             <!-- 5번째 -->
-            <article class="proOne">
+            <article class="project">
                 <div class="container">
                     <div class="title">오픈마켓</div>
                     <div class="date"> 2021.12.24 ~ 28 (1명)</div>
-                    <ul class="skills">
+                    <ul class="skillsList">
                         <li class="skillsName">React</li>
                         <li class="skillsName">TypeScript</li>
                         <li class="skillsName">Next.js</li>
@@ -290,7 +288,7 @@
                     <div class="content">
                         <a href="https://futurama-info.vercel.app/" target=”_blank”><img src="./src/img/futur1.png" alt="" class="img"></a>
                         <div class="contentP">
-                            <p class="Exp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minima facilis delectus blanditiis nostrum consectetur vero culpa deleniti fugit rem consequatur, enim suscipit. Voluptatum, asperiores quo error tenetur minima unde. </p>
+                            <p class="exp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minima facilis delectus blanditiis nostrum consectetur vero culpa deleniti fugit rem consequatur, enim suscipit. Voluptatum, asperiores quo error tenetur minima unde. </p>
                         </div>
                     </div>
                     <div class="svgBox">
@@ -307,11 +305,11 @@
                 </div>
             </article>
             <!-- 6번째  -->
-            <article class="proOne">
+            <article class="project">
                 <div class="container-right">
                     <div class="title">반려동물 sns</div>
                     <div class="date"> 2021.12.24 ~ 28 (1명)</div>
-                    <ul class="skills">
+                    <ul class="skillsList">
                         <li class="skillsName">React</li>
                         <li class="skillsName">TypeScript</li>
                         <li class="skillsName">Next.js</li>
@@ -320,7 +318,7 @@
                     <div class="content">
                         <a href="https://futurama-info.vercel.app/" target=”_blank”><img src="./src/img/futur1.png" alt="" class="img"></a>
                         <div class="contentP">
-                            <p class="Exp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minima facilis delectus blanditiis nostrum consectetur vero culpa deleniti fugit rem consequatur, enim suscipit. Voluptatum, asperiores quo error tenetur minima unde. </p>
+                            <p class="exp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minima facilis delectus blanditiis nostrum consectetur vero culpa deleniti fugit rem consequatur, enim suscipit. Voluptatum, asperiores quo error tenetur minima unde. </p>
                         </div>
                     </div>
                     <div class="svgBox">
@@ -338,7 +336,6 @@
             </article>
     </section>
     <footer>
-<!-- 콘택트 넣기  -->
     </footer>
 </body>
 </html>

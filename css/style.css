@@ -4,16 +4,14 @@
 /* commom */
 .body {
   font-family: 'Noto Sans KR', sans-serif;
-  /* color: red; */
+  /* border: 1px solid red; */
+  /* width: 80rem; */
 }
 
 /* 섹션1 */
 .intro {
-  /* font-family: 'Noto Sans KR', sans-serif; */
   background-color: transparent;
-  /* border: 2px solid red; */
   width: 100vw;
-  /* height: 600px; */
   padding-top: 200px;
   padding: 0 1rem 0;
   margin: 1rem auto;
@@ -30,7 +28,7 @@
   justify-content: flex-end;
 }
 
-.intro  .menu:hover{
+.intro .menu:hover{
   border-bottom: 1px solid white;
 }
 
@@ -193,14 +191,13 @@
 }
 
 /* strength */
-.strength {
+.cont-strength {
   width: 90vw;
-  /* border: 5px solid red; */
   margin: 3rem auto;
 
 }
 
-.strength .strengthTit {
+.cont-strength .tit-strength {
   width: 90%;
   color: #47597E;
   position: relative;
@@ -208,14 +205,14 @@
   font-weight: 800;
 }
 
-.strength .strengthTit::after {
+.cont-strength .tit-strength::after {
   content: "Strength.";
   position: absolute;
   color: rgb(238, 238, 238);
   top: -0.3rem;
   left: -0.3rem;
 }
-.strength .strongFlex {
+.cont-strength .strongList {
   width: 90%;
   /* margin-top: 2rem; */
   margin: 2rem auto;
@@ -226,24 +223,25 @@
   overflow: scroll;
 }
 
-.strength .strongFlex .strongSkills {
+.cont-strength .strongList .item {
   border: 0.2rem solid rgb(238, 238, 238);;
   font-weight: 500;
   padding: 0.2rem 0.5rem;
   border-radius: 1rem;
   color: rgb(238, 238, 238);
 }
-.strength .skills {
+
+.cont-strength .cont-skills {
   /* border: 1px solid red; */
   color: rgb(238, 238, 238);
 }
 
-.strength .skills .skillsOne{
+.cont-strength .cont-skills .skillsOne{
   /* border: 3px solid blue; */
   display: flex;
 }
 
-.strength .skills .skillBox {
+.cont-strength .cont-skills .skillBox {
   border: 3px solid #47597E;
   border-radius: 2rem;
   width: 50%;
@@ -252,7 +250,7 @@
   position: relative;
 }
 
-.strength .skills .skillBox .name {
+.cont-strength .cont-skills .skillBox .name {
   border: 3px solid rgb(238, 238, 238);
   transform: rotate(-10deg);
   font-weight: 900;
@@ -266,7 +264,7 @@
   background-color: #000;
 }
 
-.strength .skills .skillBox .contentsP {
+.cont-strength .cont-skills .skillBox .contentsP {
   margin-top: 0.5rem;
   font-size: 1rem;
   line-height: 1.8rem;
@@ -298,7 +296,7 @@
     left: -0.4rem;
 }
 
-.project .proOne {
+.project .project {
   padding-top: 153px;
   width: 100%;
   color: rgb(238, 238, 238);
@@ -350,7 +348,7 @@
   right: 1rem;
 }
 
-.project .skills {
+.project .skillsList {
   display: flex;
   gap: 1rem;
   margin: 0.5rem 0px;
@@ -359,7 +357,7 @@
 
 }
 
-.project .skills .skillsName {
+.project .skillsList .skillsName {
   border: 1px solid rgb(238, 238, 238);
   background-color: #47597E;
   color: rgb(238, 238, 238);
@@ -372,7 +370,7 @@
   width: 90%;
   display: block;
   margin: 0 auto;
-  border-radius: 1rem;
+  border-radius: 8px;
 }
 
 .project .content .contentP {
@@ -380,7 +378,7 @@
 }
 
 
-.project .contentP .Exp {
+.project .contentP .exp {
   line-height: 2rem;
 }
 
